@@ -14,6 +14,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "Gimbal", dependencies: [])
+        .binaryTarget(name: "Gimbal", path: "Sources/Gimbal.xcframework")
     ]
 )
